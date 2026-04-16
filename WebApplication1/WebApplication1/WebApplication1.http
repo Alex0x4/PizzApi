@@ -1,0 +1,6 @@
+﻿@WebApplication1_HostAddress = https://localhost:7160
+
+
+GET {{WebApplication1_HostAddress}}/pizze
+
+###
