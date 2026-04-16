@@ -1,0 +1,7 @@
+SELECT 
+    p.nome_pizza, 
+    GROUP_CONCAT(i.nome_ingrediente SEPARATOR ', ') AS lista_ingredienti
+FROM pizza p
+JOIN ingredienti_pizza ip ON p.id = ip.pizza
+JOIN ingredienti i ON ip.ingredienti = i.id
+GROUP BY p.id;
