@@ -2,6 +2,19 @@ body {
     background-image:url(img/fondo.png);
     margin: 0;
     height: 100%;
+            display: flex;
+        flex-direction: column;
+        min-height: 100vh;
+
+    body {
+        display: flex;
+        flex-direction: column;
+        min-height: 100vh;
+    }
+    
+    .site-footer {
+        margin-top: auto;
+    }
 }
 
 
@@ -10,6 +23,7 @@ body {
     color: #fff;
     padding: 40px 0 20px;
     font-family: Arial, sans-serif;
+    margin-top: auto;
 }
 
 .footer-content {
@@ -85,6 +99,7 @@ body {
     color: #5d2906;
     
     border: 3px solid #d48634; 
+    border-right: none;
     border-radius: 50px; 
     
     font-size: 16px;
@@ -120,6 +135,24 @@ body {
 .welcome{
 
     border: 5px outset red;
-    background-color: lightblue;    
+    background-color: linear-gradient(180deg, #ffe0b2, #ffcc80);    
     text-align: center; 
+}
+
+.button-pizza {
+    padding: 15px 25px;
+    background: linear-gradient(145deg, #ff9f1c, #ff3c38);
+    color: white;
+    border: 3px solid #d48634;
+    border-radius: 50px;
+    font-size: 16px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+.button-pizza:hover {
+    background: linear-gradient(145deg, #ff3c38, #ff9f1c);
+    transform: scale(1.05);
+    box-shadow: 0 0 10px rgba(255, 60, 56, 0.6);
 }
