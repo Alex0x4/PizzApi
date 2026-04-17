@@ -136,7 +136,15 @@ body {
 
     border: 5px outset red;
     background-color: linear-gradient(180deg, #ffe0b2, #ffcc80);    
-    text-align: center; 
+    text-align: center;
+    color: white;
+    text-shadow: 
+        1px 1px 2px black,
+        -1px -1px 2px black,
+        1px -1px 2px black,
+        -1px 1px 2px black;
+    font-weight: bold;
+
 }
 
 .button-pizza {
