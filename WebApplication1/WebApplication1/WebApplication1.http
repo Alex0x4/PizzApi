@@ -4,3 +4,36 @@
 GET {{WebApplication1_HostAddress}}/pizze
 
 ###
+
+
+###
+
+GET {{WebApplication1_HostAddress}}/ingredienti
+
+###
+
+GET {{WebApplication1_HostAddress}}/ingredienti_pizza
+
+###
+
+@id=2
+GET {{WebApplication1_HostAddress}}/ingrediente/{{id}}/pizze
+
+###
+
+GET {{WebApplication1_HostAddress}}/ingredienti/{{id}}
+
+###
+
+@nome=string
+GET {{WebApplication1_HostAddress}}/pizza/nome/{{nome}}
+
+###
+
+GET {{WebApplication1_HostAddress}}/pizza/{{id}}/ingredienti
+
+###
+
+GET {{WebApplication1_HostAddress}}/pizze/{{id}}
+
+###
