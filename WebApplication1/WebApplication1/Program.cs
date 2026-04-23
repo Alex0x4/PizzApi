@@ -10,7 +10,18 @@ builder.Services.AddDbContext<AppDbContext>(options =>
 
 builder.Services.AddEndpointsApiExplorer();
 
+
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("AllowAll", policy => {
+        policy.AllowAnyOrigin().AllowAnyHeader().AllowAnyMethod();
+    });
+});
+
 var app = builder.Build();
+app.UseCors("AllowAll"); 
+
+
 
 // Endpoints
 app.MapGet("/pizze", async (AppDbContext db) =>
@@ -113,7 +124,10 @@ ip.Pizza.img_pizza
 return Results.Ok(result);
 });
 
+
 app.Run();
+
+
 
 // Models
 public class Pizza
