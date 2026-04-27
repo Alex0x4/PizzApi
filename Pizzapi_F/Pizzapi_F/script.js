@@ -1,35 +1,75 @@
-async function SearchPizza() {
-    const nome = document.getElementById("search").value;
+document.addEventListener('DOMContentLoaded', function() {
+    const searchButton = document.getElementById('searchButton');
+    if (searchButton) {
+        searchButton.addEventListener('click', SearchPizza);
+    }
+    
+    //enter buttom
+    const searchInput = document.getElementById('search');
+    if (searchInput) {
+        searchInput.addEventListener('keypress', function(event) {
+            if (event.key === 'Enter') {
+                SearchPizza();
+            }
+        });
+    }
+});
 
-    // Si el campo está vacío, podrías llamar a /pizze o no hacer nada
-    if (!nome) return;
+async function SearchPizza() {
+    const nome = document.getElementById("search").value.trim(); 
+
+    if (!nome) {
+        alert("Per favore, inserisci il nome di una pizza");
+        return;
+    }
 
     try {
-        // Llamamos al endpoint específico que definiste: /pizza/nome/{nome}
-        const respuesta = await fetch(`https://localhost:7160/pizza/nome/${nome}`); 
+        // cercando.. (togliere commento dopo)
+        //const resultsContainer = document.getElementById("results");
+        //resultsContainer.innerHTML = "<p>🔍 Cercando pizza...</p>";
+        
+        // chiamata END POINT
+        const respuesta = await fetch(`https://localhost:7160/pizza/nome/${encodeURIComponent(nome)}`); 
         
         if (!respuesta.ok) {
-            throw new Error("Pizza non trovata");
+            if (respuesta.status === 404) {
+                throw new Error("Pizza non trovata");
+            }
+            throw new Error(`Errore del server: ${respuesta.status}`);
         }
 
         const pizza = await respuesta.json();
         
-        // Aquí ya tienes la pizza con sus ingredientes
-        console.log("Datos de la pizza:", pizza);
-        renderPizza(pizza); // Función para mostrarla en el HTML
+        console.log("Dati della pizza:", pizza);
+        renderPizza(pizza);
 
     } catch (error) {
         console.error("Error:", error.message);
-        alert("La pizza non è stata trovata");
+        const resultsContainer = document.getElementById("results");
+        resultsContainer.innerHTML = `<p class="error">❌ ${error.message}</p>`;
     }
 }
 
-// Ejemplo de cómo mostrar los datos
+
 function renderPizza(pizza) {
-    const container = document.getElementById("resultado"); // Asegúrate de tener este ID en tu HTML
+    const container = document.getElementById("results");
+    
+    let ingredientesHTML = "";
+    if (pizza.ingredienti) {
+        if (Array.isArray(pizza.ingredienti)) {
+            ingredientesHTML = pizza.ingredienti.join(", ");
+        } else {
+            ingredientesHTML = pizza.ingredienti;
+        }
+    } else {
+        ingredientesHTML = "Nessun ingrediente specificato";
+    }
+    
     container.innerHTML = `
-        <h3>${pizza.nome_pizza}</h3>
-        <img src="${pizza.img_pizza}" alt="${pizza.nome_pizza}" width="200">
-        <p><strong>Ingredienti:</strong> ${pizza.ingredienti.join(", ")}</p>
+        <div class="pizza-card">
+            <h3>🍕 ${pizza.nome_pizza || pizza.nome || "Pizza"} 🍕</h3>
+            ${pizza.img_pizza ? `<img src="${pizza.img_pizza}" alt="${pizza.nome_pizza || pizza.nome}" class="pizza-image">` : ''}
+            <p><strong>📝 Ingredienti:</strong> ${ingredientesHTML}</p>
+        </div>
     `;
 }
