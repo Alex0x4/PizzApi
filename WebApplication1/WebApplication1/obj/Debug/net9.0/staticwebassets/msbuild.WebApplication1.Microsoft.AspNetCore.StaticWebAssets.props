@@ -192,8 +192,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>ahbk9ep1ky</Fingerprint>
-      <Integrity>HuisuY5LAXEUx8/zO5tdDBy30mp7peX3fX/2fAcdlZg=</Integrity>
+      <Fingerprint>lu32z4ej1a</Fingerprint>
+      <Integrity>A03IBTjP60LZsLoyqrFOA2j5eJexULfhY2GUn9UZk7U=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Pizzapi_F\index.html'))</OriginalItemSpec>
@@ -372,8 +372,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>w9nyzaudk5</Fingerprint>
-      <Integrity>VDXppkUrpM8PEE8gv2xXznxv71fv+BP72FvwqioAUtI=</Integrity>
+      <Fingerprint>tyt8nb0mne</Fingerprint>
+      <Integrity>tUzBsvXwS/FhqugN6sJcqBupqpc0dLSnkw+wOzmt1Q4=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Pizzapi_F\script.js'))</OriginalItemSpec>
@@ -408,8 +408,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>69k8yzl9zk</Fingerprint>
-      <Integrity>dokuxjN/8l+vJq+oO87HWE8ThSqXvDjDzDIiWd/mBdI=</Integrity>
+      <Fingerprint>h63p1y96dp</Fingerprint>
+      <Integrity>p6r88YZj/m3l6mDmhkZcArguQ/MItSNaznCYpTz8VhI=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Pizzapi_F\style.css'))</OriginalItemSpec>

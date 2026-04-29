@@ -8,45 +8,54 @@
     <title>🍕PIZZAPI🍕</title>
 </head> 
 <body>
-    <div class="welcome">
-        <h1 class="h1">Benvenuto a PIZZAPI!</h1>
-        <h2 class="h2">Digita la pizza che desideri indagare</h2>
+    <div class="header">
+        <h1>🍕 PIZZAPI 🍕</h1>
+        <p>Digita il nome della pizza</p>
     </div>
   
-    <div class="pizza-search-wrapper">
-        <input id="search" type="search" class="pizza-search" placeholder="Pizza M..."> 
-        <input id="searchButton" class="button-pizza" type="button" value="Cerca">
+    <div class="search-box">
+        <input id="search" type="text" placeholder="Es: Margherita"> 
+        <button id="searchButton">Cerca</button>
     </div>
     
-    <!-- Contenedor separado para mostrar los resultados -->
-    <div id="results" class="results-container"></div>
+    <div id="results"></div>
+
+    <!-- Modifica Pizza -->
+    <div id="editModal" class="modal">
+        <div class="modal-box">
+            <h3>Modifica Pizza</h3>
+            <input type="text" id="editNome" placeholder="Nuovo nome">
+            <input type="text" id="editImg" placeholder="URL immagine">
+            <button id="saveEdit">Salva</button>
+            <button class="close-modal">Annulla</button>
+        </div>
+    </div>
+
+    <!-- Gestisci Ingredienti -->
+    <div id="ingModal" class="modal">
+        <div class="modal-box">
+            <h3>Ingredienti</h3>
+            <div id="ingList"></div>
+            <hr>
+            <input type="text" id="newIng" placeholder="Nuovo ingrediente">
+            <button id="addIng">Aggiungi</button>
+            <button class="close-modal">Chiudi</button>
+        </div>
+    </div>
+
+    <!-- Elimina Pizza -->
+    <div id="deleteModal" class="modal">
+        <div class="modal-box">
+            <h3>Eliminare questa pizza?</h3>
+            <button id="confirmDelete">Sì</button>
+            <button class="close-modal">No</button>
+        </div>
+    </div>
+
+    <footer>
+        <p>© 2026 PIZZAPI | Alex - Dario - Stefan</p>
+    </footer>
 
     <script src="script.js"></script>
-
-    <footer class="site-footer">
-        <div class="footer-content">
-            <div class="footer-section about">
-                <h3>🍕PIZZAPI🍕</h3>
-                <p>Servizio per indagare le pizze maliziose 🕵️</p>
-            </div>
-            <div class="footer-section links">
-                <h3>Link Rapidi</h3>
-                <ul>
-                    <li><a href="#">Chi Siamo</a></li>
-                    <li><a href="#">Servizi</a></li>
-                    <li><a href="#">Contatti</a></li>
-                    <li><a href="#">Privacy Policy</a></li>
-                </ul>
-            </div>
-            <div class="footer-section contact">
-                <h3>Contatti</h3>
-                <p>Email: pizzapi2026@gmail.com</p> 
-                <p>Telefono: +39 193 847 2989</p>
-            </div>
-        </div>
-        <div class="footer-bottom">
-            &copy; 2026 🍕PIZZAPI🍕 | Creato da Alex - Dario - Stefan
-        </div>
-    </footer>
 </body>
 </html>

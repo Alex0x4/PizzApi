@@ -1,166 +1,170 @@
-body {
-    background-image:url(img/fondo.png);
+* {
     margin: 0;
-    height: 100%;
-            display: flex;
-        flex-direction: column;
-        min-height: 100vh;
-
-    body {
-        display: flex;
-        flex-direction: column;
-        min-height: 100vh;
-    }
-    
-    .site-footer {
-        margin-top: auto;
-    }
-}
-
-
-.site-footer {
-    background-color: #333;
-    color: #fff;
-    padding: 40px 0 20px;
-    font-family: Arial, sans-serif;
-    margin-top: auto;
-}
-
-.footer-content {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 20px;
-}
-
-.footer-section {
-    flex: 1;
-    min-width: 250px;
-    margin-bottom: 20px;
-    padding: 0 15px;
-}
-
-.footer-section h3 {
-    border-bottom: 2px solid #f4a261;
-    padding-bottom: 10px;
-    color: #f4a261;
-}
-
-.footer-section ul {
-    list-style: none;
     padding: 0;
+    box-sizing: border-box;
 }
 
-.footer-section ul li a {
-    color: #bbb;
-    text-decoration: none;
-    line-height: 2;
-}
-
-.footer-section ul li a:hover {
-    color: #fff;
-}
-
-.footer-bottom {
-    text-align: center;
-    margin-top: 30px;
-    border-top: 1px solid #555;
-    padding-top: 20px;
-    font-size: 0.9em;
-    color: #bbb;
-}
-
-.h1 {
-    text-align: center;
-    font-family:cursive
-}
-
-.h2 {
-    text-align: center;
-    font-family:cursive 
-
-}
-
-.pizza-search-wrapper {
+body {
+    background: #f5e6d3;
+    font-family: Arial, sans-serif;
+    min-height: 100vh;
     display: flex;
-    justify-content: center;
-    margin: 20px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    flex-direction: column;
 }
 
-.pizza-search {
-    width: 300px;
-    padding: 15px 20px;
-    padding-left: 45px; 
-    
-    background-color: #fff9e6;
-    color: #5d2906;
-    
-    border: 3px solid #d48634; 
-    border-right: none;
-    border-radius: 50px; 
-    
-    font-size: 16px;
-    outline: none;
-    transition: all 0.3s ease;
-    
-    background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><text y=".9em" font-size="90">🍕</text></svg>');
-    background-repeat: no-repeat;
-    background-position: 10px center;
-    background-size: 25px;
-}
-
-.pizza-search:focus {
-    width: 350px;
-    background-color: #ffffff;
-    border-color: #ea5353; 
-    box-shadow: 0 0 10px rgba(234, 83, 83, 0.5);
-}
-
-.pizza-search::placeholder {
-    color: #a87d4f;
-    opacity: 0.7;
-}
-
-.pizza-search::-webkit-search-cancel-button {
-    -webkit-appearance: none;
-    height: 15px;
-    width: 15px;
-    background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><circle cx="50" cy="50" r="40" fill="%23ea5353""")/>><text x="25" y="70" font-size="50" fill="white">X</text></svg>') no-repeat center;
-    cursor: pointer;
-}
-
-.welcome{
-
-    border: 5px outset red;
-    background-color: linear-gradient(180deg, #ffe0b2, #ffcc80);    
+.header {
+    background: #c0392b;
+    color: white;
     text-align: center;
-    color: white;
-    text-shadow: 
-        1px 1px 2px black,
-        -1px -1px 2px black,
-        1px -1px 2px black,
-        -1px 1px 2px black;
-    font-weight: bold;
-
+    padding: 30px;
+    border-bottom: 4px solid #e67e22;
 }
 
-.button-pizza {
-    padding: 15px 25px;
-    background: linear-gradient(145deg, #ff9f1c, #ff3c38);
-    color: white;
-    border: 3px solid #d48634;
-    border-radius: 50px;
+.header h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.search-box {
+    text-align: center;
+    margin: 30px auto;
+}
+
+.search-box input {
+    padding: 12px 20px;
+    width: 300px;
     font-size: 16px;
-    cursor: pointer;
-    font-weight: bold;
-    transition: all 0.3s ease;
+    border: 2px solid #e67e22;
+    border-radius: 5px;
 }
 
-.button-pizza:hover {
-    background: linear-gradient(145deg, #ff3c38, #ff9f1c);
-    transform: scale(1.05);
-    box-shadow: 0 0 10px rgba(255, 60, 56, 0.6);
+.search-box button {
+    padding: 12px 25px;
+    font-size: 16px;
+    background: #e67e22;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.search-box button:hover {
+    background: #d35400;
+}
+
+#results {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.pizza-card {
+    background: white;
+    border: 2px solid #e67e22;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+}
+
+.pizza-card h3 {
+    color: #c0392b;
+    margin-bottom: 15px;
+}
+
+.pizza-card img {
+    max-width: 200px;
+    border-radius: 10px;
+    margin: 10px 0;
+}
+
+.pizza-card p {
+    margin: 15px 0;
+    color: #333;
+}
+
+.pizza-actions {
+    margin-top: 20px;
+}
+
+.pizza-actions button {
+    padding: 8px 16px;
+    margin: 0 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.edit-btn { background: #f39c12; color: white; }
+.ingredients-btn { background: #9b59b6; color: white; }
+.delete-btn { background: #e74c3c; color: white; }
+
+.modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.5);
+}
+
+.modal-box {
+    background: white;
+    width: 350px;
+    margin: 100px auto;
+    padding: 25px;
+    border-radius: 10px;
+    border: 2px solid #e67e22;
+}
+
+.modal-box h3 {
+    margin-bottom: 20px;
+    color: #c0392b;
+}
+
+.modal-box input {
+    width: 100%;
+    padding: 8px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.modal-box button {
+    padding: 8px 16px;
+    margin: 10px 5px 0 0;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#ingList {
+    max-height: 200px;
+    overflow-y: auto;
+    margin: 10px 0;
+}
+
+.ing-item {
+    background: #ecf0f1;
+    padding: 8px;
+    margin: 5px 0;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.ing-item button {
+    background: #e74c3c;
+    color: white;
+    padding: 2px 8px;
+    font-size: 12px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #333;
+    color: white;
+    margin-top: auto;
 }

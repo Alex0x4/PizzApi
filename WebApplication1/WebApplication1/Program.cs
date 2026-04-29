@@ -1,5 +1,4 @@
 using Microsoft.EntityFrameworkCore;
-using System;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -7,9 +6,6 @@ var builder = WebApplication.CreateBuilder(args);
 var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
 builder.Services.AddDbContext<AppDbContext>(options =>
     options.UseMySql(connectionString, ServerVersion.AutoDetect(connectionString)));
-
-builder.Services.AddEndpointsApiExplorer();
-
 
 builder.Services.AddCors(options =>
 {
@@ -23,120 +19,43 @@ app.UseCors("AllowAll");
 app.UseDefaultFiles();
 app.UseStaticFiles();
 
-app.MapGet("/", () => Results.Redirect("Pizzapi_F/index.html"));
+// ==================== ENDPOINTS ====================
 
-
-
-// Endpoints
-
-//GET
-app.MapGet("/pizze", async (AppDbContext db) =>
-{
-var pizze = await db.Pizza.ToListAsync();
-return Results.Ok(pizze);
-});
-
-
-app.MapGet("/ingredienti", async (AppDbContext db) =>
-{
-var ingredienti = await db.Ingredienti.ToListAsync();
-return Results.Ok(ingredienti);
-});
-
-app.MapGet("/ingredienti_pizza", async (AppDbContext db) =>
-{
-var relazioni = await db.Ingredienti_Pizza.ToListAsync();
-return Results.Ok(relazioni);
-});
-
-
+// GET - Cerca pizza per nome
 app.MapGet("/pizza/nome/{nome}", async (string nome, AppDbContext db) =>
 {
-var pizza = await db.Pizza
-    .Include(p => p.Ingredienti_Pizza)
-    .ThenInclude(ip => ip.Ingrediente)
-    .FirstOrDefaultAsync(p => p.nome_pizza.ToLower() == nome.ToLower());
+    var pizza = await db.Pizza
+        .Include(p => p.Ingredienti_Pizza)
+        .ThenInclude(ip => ip.Ingrediente)
+        .FirstOrDefaultAsync(p => p.nome_pizza.ToLower() == nome.ToLower());
 
-if (pizza == null) return Results.NotFound($"Pizza '{nome}' non trovata");
-
-var result = new
-{
-pizza.id,
-pizza.nome_pizza,
-pizza.img_pizza,
-ingredienti = pizza.Ingredienti_Pizza.Select(ip => ip.Ingrediente.nome_ingrediente).ToList()
-};
-
-return Results.Ok(result);
-});
-//POST
-
-// Aggiungi una nuova pizza
-app.MapPost("/pizze", async (AppDbContext db, Pizza nuovaPizza) =>
-{
-    // Verifica se esiste già una pizza con lo stesso nome
-    var esistente = await db.Pizza.FirstOrDefaultAsync(p => p.nome_pizza.ToLower() == nuovaPizza.nome_pizza.ToLower());
-    if (esistente != null)
-        return Results.BadRequest($"Una pizza con nome '{nuovaPizza.nome_pizza}' esiste già");
-
-    db.Pizza.Add(nuovaPizza);
-    await db.SaveChangesAsync();
-    return Results.Created($"/pizze/{nuovaPizza.id}", nuovaPizza);
-});
-
-// Aggiungi un nuovo ingrediente
-app.MapPost("/ingredienti", async (AppDbContext db, Ingredienti nuovoIngrediente) =>
-{
-    var esistente = await db.Ingredienti.FirstOrDefaultAsync(i => i.nome_ingrediente.ToLower() == nuovoIngrediente.nome_ingrediente.ToLower());
-    if (esistente != null)
-        return Results.BadRequest($"L'ingrediente '{nuovoIngrediente.nome_ingrediente}' esiste già");
-
-    db.Ingredienti.Add(nuovoIngrediente);
-    await db.SaveChangesAsync();
-    return Results.Created($"/ingredienti/{nuovoIngrediente.id}", nuovoIngrediente);
-});
-
-// Aggiungi un ingrediente a una pizza (crea relazione)
-app.MapPost("/pizza/{pizzaId}/ingrediente/{ingredienteId}", async (int pizzaId, int ingredienteId, AppDbContext db) =>
-{
-    // Verifica se pizza esiste
-    var pizza = await db.Pizza.FindAsync(pizzaId);
     if (pizza == null)
-        return Results.NotFound($"Pizza con ID {pizzaId} non trovata");
+        return Results.NotFound();
 
-    // Verifica se ingrediente esiste
-    var ingrediente = await db.Ingredienti.FindAsync(ingredienteId);
-    if (ingrediente == null)
-        return Results.NotFound($"Ingrediente con ID {ingredienteId} non trovato");
-
-    // Verifica se la relazione esiste già
-    var relazioneEsistente = await db.Ingredienti_Pizza
-        .FirstOrDefaultAsync(ip => ip.PizzaId == pizzaId && ip.IngredienteId == ingredienteId);
-
-    if (relazioneEsistente != null)
-        return Results.BadRequest($"L'ingrediente '{ingrediente.nome_ingrediente}' è già presente nella pizza '{pizza.nome_pizza}'");
-
-    // Crea nuova relazione
-    var nuovaRelazione = new Ingrediente_Pizza
+    var result = new
     {
-        PizzaId = pizzaId,
-        IngredienteId = ingredienteId
+        pizza.id,
+        pizza.nome_pizza,
+        pizza.img_pizza,
+        ingredienti = pizza.Ingredienti_Pizza.Select(ip => ip.Ingrediente.nome_ingrediente).ToList()
     };
 
-    db.Ingredienti_Pizza.Add(nuovaRelazione);
-    await db.SaveChangesAsync();
-
-    return Results.Ok(new { message = $"Ingrediente '{ingrediente.nome_ingrediente}' aggiunto alla pizza '{pizza.nome_pizza}'", relazione = nuovaRelazione });
+    return Results.Ok(result);
 });
 
-// ==================== ENDPOINT PUT (UPDATE) ====================
+// GET - Tutti gli ingredienti (per il dropdown)
+app.MapGet("/ingredienti", async (AppDbContext db) =>
+{
+    var ingredienti = await db.Ingredienti.ToListAsync();
+    return Results.Ok(ingredienti);
+});
 
-// Aggiorna una pizza esistente
+// PUT - Modifica pizza
 app.MapPut("/pizze/{id}", async (int id, AppDbContext db, Pizza pizzaAggiornata) =>
 {
     var pizza = await db.Pizza.FindAsync(id);
     if (pizza == null)
-        return Results.NotFound($"Pizza con ID {id} non trovata");
+        return Results.NotFound();
 
     pizza.nome_pizza = pizzaAggiornata.nome_pizza;
     pizza.img_pizza = pizzaAggiornata.img_pizza;
@@ -145,74 +64,58 @@ app.MapPut("/pizze/{id}", async (int id, AppDbContext db, Pizza pizzaAggiornata)
     return Results.Ok(pizza);
 });
 
-// Aggiorna un ingrediente esistente
-app.MapPut("/ingredienti/{id}", async (int id, AppDbContext db, Ingredienti ingredienteAggiornato) =>
+// POST - Aggiungi nuovo ingrediente
+app.MapPost("/ingredienti", async (AppDbContext db, Ingredienti nuovoIngrediente) =>
 {
-    var ingrediente = await db.Ingredienti.FindAsync(id);
-    if (ingrediente == null)
-        return Results.NotFound($"Ingrediente con ID {id} non trovato");
-
-    ingrediente.nome_ingrediente = ingredienteAggiornato.nome_ingrediente;
-
+    db.Ingredienti.Add(nuovoIngrediente);
     await db.SaveChangesAsync();
-    return Results.Ok(ingrediente);
+    return Results.Ok(nuovoIngrediente);
 });
 
-// ==================== ENDPOINT DELETE (DELETE) ====================
+// POST - Associa ingrediente a pizza
+app.MapPost("/pizza/{pizzaId}/ingrediente/{ingredienteId}", async (int pizzaId, int ingredienteId, AppDbContext db) =>
+{
+    var relazione = new Ingrediente_Pizza
+    {
+        PizzaId = pizzaId,
+        IngredienteId = ingredienteId
+    };
 
-// Elimina una pizza (elimina anche le relazioni collegate)
+    db.Ingredienti_Pizza.Add(relazione);
+    await db.SaveChangesAsync();
+    return Results.Ok(relazione);
+});
+
+// DELETE - Elimina pizza
 app.MapDelete("/pizze/{id}", async (int id, AppDbContext db) =>
 {
-    var pizza = await db.Pizza
-        .Include(p => p.Ingredienti_Pizza)
-        .FirstOrDefaultAsync(p => p.id == id);
-
+    var pizza = await db.Pizza.FindAsync(id);
     if (pizza == null)
-        return Results.NotFound($"Pizza con ID {id} non trovata");
+        return Results.NotFound();
 
-    // Le relazioni verranno eliminate automaticamente grazie al vincolo ON DELETE CASCADE
     db.Pizza.Remove(pizza);
     await db.SaveChangesAsync();
-
-    return Results.Ok(new { message = $"Pizza '{pizza.nome_pizza}' eliminata con successo" });
+    return Results.Ok();
 });
 
-// Elimina un ingrediente (elimina anche le relazioni collegate)
-app.MapDelete("/ingredienti/{id}", async (int id, AppDbContext db) =>
-{
-    var ingrediente = await db.Ingredienti
-        .Include(i => i.Ingredienti_Pizza)
-        .FirstOrDefaultAsync(i => i.id == id);
-
-    if (ingrediente == null)
-        return Results.NotFound($"Ingrediente con ID {id} non trovato");
-
-    db.Ingredienti.Remove(ingrediente);
-    await db.SaveChangesAsync();
-
-    return Results.Ok(new { message = $"Ingrediente '{ingrediente.nome_ingrediente}' eliminato con successo" });
-});
-
-// Rimuovi un ingrediente da una pizza (elimina solo la relazione)
+// DELETE - Rimuovi ingrediente da pizza
 app.MapDelete("/pizza/{pizzaId}/ingrediente/{ingredienteId}", async (int pizzaId, int ingredienteId, AppDbContext db) =>
 {
     var relazione = await db.Ingredienti_Pizza
         .FirstOrDefaultAsync(ip => ip.PizzaId == pizzaId && ip.IngredienteId == ingredienteId);
 
     if (relazione == null)
-        return Results.NotFound($"Relazione tra pizza {pizzaId} e ingrediente {ingredienteId} non trovata");
+        return Results.NotFound();
 
     db.Ingredienti_Pizza.Remove(relazione);
     await db.SaveChangesAsync();
-
-    return Results.Ok(new { message = $"Ingrediente rimosso dalla pizza con successo" });
+    return Results.Ok();
 });
 
 app.Run();
 
+// ==================== MODELS ====================
 
-
-// Models
 public class Pizza
 {
     public int id { get; set; }
@@ -238,7 +141,8 @@ public class Ingrediente_Pizza
     public Ingredienti Ingrediente { get; set; } = null!;
 }
 
-// DbContext
+// ==================== DB CONTEXT ====================
+
 public class AppDbContext : DbContext
 {
     public AppDbContext(DbContextOptions<AppDbContext> options) : base(options) { }
@@ -249,7 +153,6 @@ public class AppDbContext : DbContext
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
-        // Mapping tabelle con i nomi esatti del database
         modelBuilder.Entity<Pizza>(entity =>
         {
             entity.ToTable("pizza");
@@ -270,18 +173,18 @@ public class AppDbContext : DbContext
             entity.ToTable("ingredienti_pizza");
             entity.HasKey(e => e.id);
 
-            // Mapping delle foreign key columns
             entity.Property(e => e.PizzaId).HasColumnName("pizza");
             entity.Property(e => e.IngredienteId).HasColumnName("ingredienti");
 
-            // Relazioni
             entity.HasOne(ip => ip.Pizza)
                 .WithMany(p => p.Ingredienti_Pizza)
-                .HasForeignKey(ip => ip.PizzaId);
+                .HasForeignKey(ip => ip.PizzaId)
+                .OnDelete(DeleteBehavior.Cascade);
 
             entity.HasOne(ip => ip.Ingrediente)
                 .WithMany(i => i.Ingredienti_Pizza)
-                .HasForeignKey(ip => ip.IngredienteId);
+                .HasForeignKey(ip => ip.IngredienteId)
+                .OnDelete(DeleteBehavior.Cascade);
         });
     }
 }
