@@ -5,8 +5,8 @@
 }
 
 body {
-    background: #f5e6d3;
-    font-family: Arial, sans-serif;
+background-image: url("img/fondo.png");    
+font-family: Arial, sans-serif;
     min-height: 100vh;
     display: flex;
     flex-direction: column;

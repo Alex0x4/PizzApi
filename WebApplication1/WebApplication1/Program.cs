@@ -20,9 +20,9 @@ app.UseDefaultFiles();
 app.UseStaticFiles();
 app.MapGet("/", () => Results.Redirect("Pizzapi_F/index.html"));
 
-// ==================== ENDPOINTS ====================
+// ENDPOINTS
 
-// GET - Cerca pizza per nome
+// GET
 app.MapGet("/pizza/nome/{nome}", async (string nome, AppDbContext db) =>
 {
     var pizza = await db.Pizza
@@ -44,14 +44,14 @@ app.MapGet("/pizza/nome/{nome}", async (string nome, AppDbContext db) =>
     return Results.Ok(result);
 });
 
-// GET - Tutti gli ingredienti (per il dropdown)
+// GET (prende i ingrendienti 
 app.MapGet("/ingredienti", async (AppDbContext db) =>
 {
     var ingredienti = await db.Ingredienti.ToListAsync();
     return Results.Ok(ingredienti);
 });
 
-// PUT - Modifica pizza
+// PUT (modifica pizza)
 app.MapPut("/pizze/{id}", async (int id, AppDbContext db, Pizza pizzaAggiornata) =>
 {
     var pizza = await db.Pizza.FindAsync(id);
@@ -65,7 +65,7 @@ app.MapPut("/pizze/{id}", async (int id, AppDbContext db, Pizza pizzaAggiornata)
     return Results.Ok(pizza);
 });
 
-// POST - Aggiungi nuovo ingrediente
+// POST (aggiunge ingrediente)
 app.MapPost("/ingredienti", async (AppDbContext db, Ingredienti nuovoIngrediente) =>
 {
     db.Ingredienti.Add(nuovoIngrediente);
@@ -73,7 +73,7 @@ app.MapPost("/ingredienti", async (AppDbContext db, Ingredienti nuovoIngrediente
     return Results.Ok(nuovoIngrediente);
 });
 
-// POST - Associa ingrediente a pizza
+// POST associa ingrediente a pizza
 app.MapPost("/pizza/{pizzaId}/ingrediente/{ingredienteId}", async (int pizzaId, int ingredienteId, AppDbContext db) =>
 {
     var relazione = new Ingrediente_Pizza
@@ -87,7 +87,7 @@ app.MapPost("/pizza/{pizzaId}/ingrediente/{ingredienteId}", async (int pizzaId, 
     return Results.Ok(relazione);
 });
 
-// DELETE - Elimina pizza
+// DELETE (Elimina pizza)
 app.MapDelete("/pizze/{id}", async (int id, AppDbContext db) =>
 {
     var pizza = await db.Pizza.FindAsync(id);
@@ -99,7 +99,7 @@ app.MapDelete("/pizze/{id}", async (int id, AppDbContext db) =>
     return Results.Ok();
 });
 
-// DELETE - Rimuovi ingrediente da pizza
+// DELETE ( Rimuove ingrediente da pizza)
 app.MapDelete("/pizza/{pizzaId}/ingrediente/{ingredienteId}", async (int pizzaId, int ingredienteId, AppDbContext db) =>
 {
     var relazione = await db.Ingredienti_Pizza
@@ -115,7 +115,7 @@ app.MapDelete("/pizza/{pizzaId}/ingrediente/{ingredienteId}", async (int pizzaId
 
 app.Run();
 
-// ==================== MODELS ====================
+// MODELS
 
 public class Pizza
 {
@@ -142,7 +142,7 @@ public class Ingrediente_Pizza
     public Ingredienti Ingrediente { get; set; } = null!;
 }
 
-// ==================== DB CONTEXT ====================
+// DB CONTEXT
 
 public class AppDbContext : DbContext
 {
