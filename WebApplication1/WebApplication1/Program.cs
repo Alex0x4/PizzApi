@@ -18,6 +18,7 @@ var app = builder.Build();
 app.UseCors("AllowAll");
 app.UseDefaultFiles();
 app.UseStaticFiles();
+app.MapGet("/", () => Results.Redirect("Pizzapi_F/index.html"));
 
 // ==================== ENDPOINTS ====================
 
