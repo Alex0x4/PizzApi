@@ -1,0 +1,129 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\Utente\\Desktop\\TestBOZZI\\PizzApi\\WebApplication1\\WebApplication1\\wwwroot\\Pizzapi_F\\americana.png",
+      "PackagePath": "staticwebassets\\Pizzapi_F\\americana.png"
+    },
+    {
+      "Id": "C:\\Users\\Utente\\Desktop\\TestBOZZI\\PizzApi\\WebApplication1\\WebApplication1\\wwwroot\\Pizzapi_F\\boscaiola.png",
+      "PackagePath": "staticwebassets\\Pizzapi_F\\boscaiola.png"
+    },
+    {
+      "Id": "C:\\Users\\Utente\\Desktop\\TestBOZZI\\PizzApi\\WebApplication1\\WebApplication1\\wwwroot\\Pizzapi_F\\bufalina.png",
+      "PackagePath": "staticwebassets\\Pizzapi_F\\bufalina.png"
+    },
+    {
+      "Id": "C:\\Users\\Utente\\Desktop\\TestBOZZI\\PizzApi\\WebApplication1\\WebApplication1\\wwwroot\\Pizzapi_F\\calabrese.png",
+      "PackagePath": "staticwebassets\\Pizzapi_F\\calabrese.png"
+    },
+    {
+      "Id": "C:\\Users\\Utente\\Desktop\\TestBOZZI\\PizzApi\\WebApplication1\\WebApplication1\\wwwroot\\Pizzapi_F\\capricciosa.png",
+      "PackagePath": "staticwebassets\\Pizzapi_F\\capricciosa.png"
+    },
+    {
+      "Id": "C:\\Users\\Utente\\Desktop\\TestBOZZI\\PizzApi\\WebApplication1\\WebApplication1\\wwwroot\\Pizzapi_F\\crudo_rucola.png",
+      "PackagePath": "staticwebassets\\Pizzapi_F\\crudo_rucola.png"
+    },
+    {
+      "Id": "C:\\Users\\Utente\\Desktop\\TestBOZZI\\PizzApi\\WebApplication1\\WebApplication1\\wwwroot\\Pizzapi_F\\diavola.png",
+      "PackagePath": "staticwebassets\\Pizzapi_F\\diavola.png"
+    },
+    {
+      "Id": "C:\\Users\\Utente\\Desktop\\TestBOZZI\\PizzApi\\WebApplication1\\WebApplication1\\wwwroot\\Pizzapi_F\\frutti_di_mare.png",
+      "PackagePath": "staticwebassets\\Pizzapi_F\\frutti_di_mare.png"
+    },
+    {
+      "Id": "C:\\Users\\Utente\\Desktop\\TestBOZZI\\PizzApi\\WebApplication1\\WebApplication1\\wwwroot\\Pizzapi_F\\img\\fondo.png",
+      "PackagePath": "staticwebassets\\Pizzapi_F\\img\\fondo.png"
+    },
+    {
+      "Id": "C:\\Users\\Utente\\Desktop\\TestBOZZI\\PizzApi\\WebApplication1\\WebApplication1\\wwwroot\\Pizzapi_F\\img\\logo.png",
+      "PackagePath": "staticwebassets\\Pizzapi_F\\img\\logo.png"
+    },
+    {
+      "Id": "C:\\Users\\Utente\\Desktop\\TestBOZZI\\PizzApi\\WebApplication1\\WebApplication1\\wwwroot\\Pizzapi_F\\index.html",
+      "PackagePath": "staticwebassets\\Pizzapi_F\\index.html"
+    },
+    {
+      "Id": "C:\\Users\\Utente\\Desktop\\TestBOZZI\\PizzApi\\WebApplication1\\WebApplication1\\wwwroot\\Pizzapi_F\\logo2.png",
+      "PackagePath": "staticwebassets\\Pizzapi_F\\logo2.png"
+    },
+    {
+      "Id": "C:\\Users\\Utente\\Desktop\\TestBOZZI\\PizzApi\\WebApplication1\\WebApplication1\\wwwroot\\Pizzapi_F\\margherita.png",
+      "PackagePath": "staticwebassets\\Pizzapi_F\\margherita.png"
+    },
+    {
+      "Id": "C:\\Users\\Utente\\Desktop\\TestBOZZI\\PizzApi\\WebApplication1\\WebApplication1\\wwwroot\\Pizzapi_F\\marinara.png",
+      "PackagePath": "staticwebassets\\Pizzapi_F\\marinara.png"
+    },
+    {
+      "Id": "C:\\Users\\Utente\\Desktop\\TestBOZZI\\PizzApi\\WebApplication1\\WebApplication1\\wwwroot\\Pizzapi_F\\napoletana.png",
+      "PackagePath": "staticwebassets\\Pizzapi_F\\napoletana.png"
+    },
+    {
+      "Id": "C:\\Users\\Utente\\Desktop\\TestBOZZI\\PizzApi\\WebApplication1\\WebApplication1\\wwwroot\\Pizzapi_F\\ortolana.png",
+      "PackagePath": "staticwebassets\\Pizzapi_F\\ortolana.png"
+    },
+    {
+      "Id": "C:\\Users\\Utente\\Desktop\\TestBOZZI\\PizzApi\\WebApplication1\\WebApplication1\\wwwroot\\Pizzapi_F\\pistacchio_mortadella.png",
+      "PackagePath": "staticwebassets\\Pizzapi_F\\pistacchio_mortadella.png"
+    },
+    {
+      "Id": "C:\\Users\\Utente\\Desktop\\TestBOZZI\\PizzApi\\WebApplication1\\WebApplication1\\wwwroot\\Pizzapi_F\\prosciutto_funghi.png",
+      "PackagePath": "staticwebassets\\Pizzapi_F\\prosciutto_funghi.png"
+    },
+    {
+      "Id": "C:\\Users\\Utente\\Desktop\\TestBOZZI\\PizzApi\\WebApplication1\\WebApplication1\\wwwroot\\Pizzapi_F\\quattro_formaggi.png",
+      "PackagePath": "staticwebassets\\Pizzapi_F\\quattro_formaggi.png"
+    },
+    {
+      "Id": "C:\\Users\\Utente\\Desktop\\TestBOZZI\\PizzApi\\WebApplication1\\WebApplication1\\wwwroot\\Pizzapi_F\\quattro_stagioni.png",
+      "PackagePath": "staticwebassets\\Pizzapi_F\\quattro_stagioni.png"
+    },
+    {
+      "Id": "C:\\Users\\Utente\\Desktop\\TestBOZZI\\PizzApi\\WebApplication1\\WebApplication1\\wwwroot\\Pizzapi_F\\script.js",
+      "PackagePath": "staticwebassets\\Pizzapi_F\\script.js"
+    },
+    {
+      "Id": "C:\\Users\\Utente\\Desktop\\TestBOZZI\\PizzApi\\WebApplication1\\WebApplication1\\wwwroot\\Pizzapi_F\\speck_brie.png",
+      "PackagePath": "staticwebassets\\Pizzapi_F\\speck_brie.png"
+    },
+    {
+      "Id": "C:\\Users\\Utente\\Desktop\\TestBOZZI\\PizzApi\\WebApplication1\\WebApplication1\\wwwroot\\Pizzapi_F\\style.css",
+      "PackagePath": "staticwebassets\\Pizzapi_F\\style.css"
+    },
+    {
+      "Id": "C:\\Users\\Utente\\Desktop\\TestBOZZI\\PizzApi\\WebApplication1\\WebApplication1\\wwwroot\\Pizzapi_F\\tirolese.png",
+      "PackagePath": "staticwebassets\\Pizzapi_F\\tirolese.png"
+    },
+    {
+      "Id": "C:\\Users\\Utente\\Desktop\\TestBOZZI\\PizzApi\\WebApplication1\\WebApplication1\\wwwroot\\Pizzapi_F\\tonno_cipolla.png",
+      "PackagePath": "staticwebassets\\Pizzapi_F\\tonno_cipolla.png"
+    },
+    {
+      "Id": "C:\\Users\\Utente\\Desktop\\TestBOZZI\\PizzApi\\WebApplication1\\WebApplication1\\wwwroot\\Pizzapi_F\\vegetariana.png",
+      "PackagePath": "staticwebassets\\Pizzapi_F\\vegetariana.png"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.WebApplication1.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.WebApplication1.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.build.WebApplication1.props",
+      "PackagePath": "build\\WebApplication1.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.buildMultiTargeting.WebApplication1.props",
+      "PackagePath": "buildMultiTargeting\\WebApplication1.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.buildTransitive.WebApplication1.props",
+      "PackagePath": "buildTransitive\\WebApplication1.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

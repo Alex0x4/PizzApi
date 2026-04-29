@@ -1,1 +1,2786 @@
-{"Version":1,"ManifestType":"Build","Endpoints":[]}
+{
+  "Version": 1,
+  "ManifestType": "Build",
+  "Endpoints": [
+    {
+      "Route": "Pizzapi_F/americana.6v154xnpoz.png",
+      "AssetFile": "Pizzapi_F/americana.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2114767"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"svALbdqP9b5bRueAZ2oR3s06YjVWKJg31G53Irywrr8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 29 Apr 2026 17:54:35 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "6v154xnpoz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-svALbdqP9b5bRueAZ2oR3s06YjVWKJg31G53Irywrr8="
+        },
+        {
+          "Name": "label",
+          "Value": "Pizzapi_F/americana.png"
+        }
+      ]
+    },
+    {
+      "Route": "Pizzapi_F/americana.png",
+      "AssetFile": "Pizzapi_F/americana.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2114767"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"svALbdqP9b5bRueAZ2oR3s06YjVWKJg31G53Irywrr8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 29 Apr 2026 17:54:35 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-svALbdqP9b5bRueAZ2oR3s06YjVWKJg31G53Irywrr8="
+        }
+      ]
+    },
+    {
+      "Route": "Pizzapi_F/boscaiola.9woir4bh4w.png",
+      "AssetFile": "Pizzapi_F/boscaiola.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2203527"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"dzZI49+D8xvDYOzFteQirRRwJoUrZeYALvw3UjykqfI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 29 Apr 2026 17:54:35 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "9woir4bh4w"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-dzZI49+D8xvDYOzFteQirRRwJoUrZeYALvw3UjykqfI="
+        },
+        {
+          "Name": "label",
+          "Value": "Pizzapi_F/boscaiola.png"
+        }
+      ]
+    },
+    {
+      "Route": "Pizzapi_F/boscaiola.png",
+      "AssetFile": "Pizzapi_F/boscaiola.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2203527"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"dzZI49+D8xvDYOzFteQirRRwJoUrZeYALvw3UjykqfI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 29 Apr 2026 17:54:35 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-dzZI49+D8xvDYOzFteQirRRwJoUrZeYALvw3UjykqfI="
+        }
+      ]
+    },
+    {
+      "Route": "Pizzapi_F/bufalina.5i2adihy9a.png",
+      "AssetFile": "Pizzapi_F/bufalina.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2134323"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"049WEtUcy57NHTMF7tdL233sLYbs+eGIauqbLmlPjto=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 29 Apr 2026 17:54:35 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "5i2adihy9a"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-049WEtUcy57NHTMF7tdL233sLYbs+eGIauqbLmlPjto="
+        },
+        {
+          "Name": "label",
+          "Value": "Pizzapi_F/bufalina.png"
+        }
+      ]
+    },
+    {
+      "Route": "Pizzapi_F/bufalina.png",
+      "AssetFile": "Pizzapi_F/bufalina.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2134323"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"049WEtUcy57NHTMF7tdL233sLYbs+eGIauqbLmlPjto=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 29 Apr 2026 17:54:35 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-049WEtUcy57NHTMF7tdL233sLYbs+eGIauqbLmlPjto="
+        }
+      ]
+    },
+    {
+      "Route": "Pizzapi_F/calabrese.oaw9wrx9uq.png",
+      "AssetFile": "Pizzapi_F/calabrese.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2227652"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"QDjOCkkDfgC3aTQx+HHf+rACqOtVQlwnMCGVn2z4sfw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 29 Apr 2026 17:54:35 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "oaw9wrx9uq"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-QDjOCkkDfgC3aTQx+HHf+rACqOtVQlwnMCGVn2z4sfw="
+        },
+        {
+          "Name": "label",
+          "Value": "Pizzapi_F/calabrese.png"
+        }
+      ]
+    },
+    {
+      "Route": "Pizzapi_F/calabrese.png",
+      "AssetFile": "Pizzapi_F/calabrese.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2227652"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"QDjOCkkDfgC3aTQx+HHf+rACqOtVQlwnMCGVn2z4sfw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 29 Apr 2026 17:54:35 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-QDjOCkkDfgC3aTQx+HHf+rACqOtVQlwnMCGVn2z4sfw="
+        }
+      ]
+    },
+    {
+      "Route": "Pizzapi_F/capricciosa.0cc28gdx6w.png",
+      "AssetFile": "Pizzapi_F/capricciosa.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2198336"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"EP1WNZS4c4uofqte7KcSMY2+OXOrGFxCuKzqoSblsZo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 29 Apr 2026 17:54:35 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "0cc28gdx6w"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-EP1WNZS4c4uofqte7KcSMY2+OXOrGFxCuKzqoSblsZo="
+        },
+        {
+          "Name": "label",
+          "Value": "Pizzapi_F/capricciosa.png"
+        }
+      ]
+    },
+    {
+      "Route": "Pizzapi_F/capricciosa.png",
+      "AssetFile": "Pizzapi_F/capricciosa.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2198336"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"EP1WNZS4c4uofqte7KcSMY2+OXOrGFxCuKzqoSblsZo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 29 Apr 2026 17:54:35 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-EP1WNZS4c4uofqte7KcSMY2+OXOrGFxCuKzqoSblsZo="
+        }
+      ]
+    },
+    {
+      "Route": "Pizzapi_F/crudo_rucola.png",
+      "AssetFile": "Pizzapi_F/crudo_rucola.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2162581"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"NKjz2mGY4KfoFI3ha3UimpL8eprI4L/aaDAvml9xhyQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 29 Apr 2026 17:54:35 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-NKjz2mGY4KfoFI3ha3UimpL8eprI4L/aaDAvml9xhyQ="
+        }
+      ]
+    },
+    {
+      "Route": "Pizzapi_F/crudo_rucola.wfxiq5d6eq.png",
+      "AssetFile": "Pizzapi_F/crudo_rucola.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2162581"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"NKjz2mGY4KfoFI3ha3UimpL8eprI4L/aaDAvml9xhyQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 29 Apr 2026 17:54:35 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "wfxiq5d6eq"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-NKjz2mGY4KfoFI3ha3UimpL8eprI4L/aaDAvml9xhyQ="
+        },
+        {
+          "Name": "label",
+          "Value": "Pizzapi_F/crudo_rucola.png"
+        }
+      ]
+    },
+    {
+      "Route": "Pizzapi_F/diavola.dd2mt8d4m3.png",
+      "AssetFile": "Pizzapi_F/diavola.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2197284"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"geKaxODNoEgw6tKUwN4qKnD8P5+zyUB1bPJcDoOYzoM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 29 Apr 2026 17:54:35 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "dd2mt8d4m3"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-geKaxODNoEgw6tKUwN4qKnD8P5+zyUB1bPJcDoOYzoM="
+        },
+        {
+          "Name": "label",
+          "Value": "Pizzapi_F/diavola.png"
+        }
+      ]
+    },
+    {
+      "Route": "Pizzapi_F/diavola.png",
+      "AssetFile": "Pizzapi_F/diavola.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2197284"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"geKaxODNoEgw6tKUwN4qKnD8P5+zyUB1bPJcDoOYzoM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 29 Apr 2026 17:54:35 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-geKaxODNoEgw6tKUwN4qKnD8P5+zyUB1bPJcDoOYzoM="
+        }
+      ]
+    },
+    {
+      "Route": "Pizzapi_F/frutti_di_mare.png",
+      "AssetFile": "Pizzapi_F/frutti_di_mare.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2202199"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"u1GlfJGcSfBP/qrXMtfoc3FFUyJ1JLPYQSfHaEcvHhQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 29 Apr 2026 17:54:35 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-u1GlfJGcSfBP/qrXMtfoc3FFUyJ1JLPYQSfHaEcvHhQ="
+        }
+      ]
+    },
+    {
+      "Route": "Pizzapi_F/frutti_di_mare.z68lx1tc6i.png",
+      "AssetFile": "Pizzapi_F/frutti_di_mare.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2202199"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"u1GlfJGcSfBP/qrXMtfoc3FFUyJ1JLPYQSfHaEcvHhQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 29 Apr 2026 17:54:35 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "z68lx1tc6i"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-u1GlfJGcSfBP/qrXMtfoc3FFUyJ1JLPYQSfHaEcvHhQ="
+        },
+        {
+          "Name": "label",
+          "Value": "Pizzapi_F/frutti_di_mare.png"
+        }
+      ]
+    },
+    {
+      "Route": "Pizzapi_F/img/fondo.4h2afp6yww.png",
+      "AssetFile": "Pizzapi_F/img/fondo.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "120772"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"CH5A+oGOSKcApshsoUDnouTQMnfTLqSvyiflgLXKNOU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 29 Apr 2026 17:54:35 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "4h2afp6yww"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-CH5A+oGOSKcApshsoUDnouTQMnfTLqSvyiflgLXKNOU="
+        },
+        {
+          "Name": "label",
+          "Value": "Pizzapi_F/img/fondo.png"
+        }
+      ]
+    },
+    {
+      "Route": "Pizzapi_F/img/fondo.png",
+      "AssetFile": "Pizzapi_F/img/fondo.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "120772"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"CH5A+oGOSKcApshsoUDnouTQMnfTLqSvyiflgLXKNOU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 29 Apr 2026 17:54:35 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-CH5A+oGOSKcApshsoUDnouTQMnfTLqSvyiflgLXKNOU="
+        }
+      ]
+    },
+    {
+      "Route": "Pizzapi_F/img/logo.6fyuhiif2e.png",
+      "AssetFile": "Pizzapi_F/img/logo.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1087019"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"wiK4wo0i2rEVLt1YaPqXX6lR5lScwze3uOZ4xZ8qwws=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 29 Apr 2026 17:54:35 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "6fyuhiif2e"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-wiK4wo0i2rEVLt1YaPqXX6lR5lScwze3uOZ4xZ8qwws="
+        },
+        {
+          "Name": "label",
+          "Value": "Pizzapi_F/img/logo.png"
+        }
+      ]
+    },
+    {
+      "Route": "Pizzapi_F/img/logo.png",
+      "AssetFile": "Pizzapi_F/img/logo.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1087019"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"wiK4wo0i2rEVLt1YaPqXX6lR5lScwze3uOZ4xZ8qwws=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 29 Apr 2026 17:54:35 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-wiK4wo0i2rEVLt1YaPqXX6lR5lScwze3uOZ4xZ8qwws="
+        }
+      ]
+    },
+    {
+      "Route": "Pizzapi_F/index.ahbk9ep1ky.html",
+      "AssetFile": "Pizzapi_F/index.html.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001331557923"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "750"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"JLlbdeGFGQ2m8VKihog0ENiTusWo/sXHTuzz4abZgzc=\""
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"HuisuY5LAXEUx8/zO5tdDBy30mp7peX3fX/2fAcdlZg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 29 Apr 2026 17:54:35 GMT"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ahbk9ep1ky"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-HuisuY5LAXEUx8/zO5tdDBy30mp7peX3fX/2fAcdlZg="
+        },
+        {
+          "Name": "label",
+          "Value": "Pizzapi_F/index.html"
+        }
+      ]
+    },
+    {
+      "Route": "Pizzapi_F/index.ahbk9ep1ky.html",
+      "AssetFile": "Pizzapi_F/index.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1871"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"HuisuY5LAXEUx8/zO5tdDBy30mp7peX3fX/2fAcdlZg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 29 Apr 2026 17:54:35 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ahbk9ep1ky"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-HuisuY5LAXEUx8/zO5tdDBy30mp7peX3fX/2fAcdlZg="
+        },
+        {
+          "Name": "label",
+          "Value": "Pizzapi_F/index.html"
+        }
+      ]
+    },
+    {
+      "Route": "Pizzapi_F/index.ahbk9ep1ky.html.gz",
+      "AssetFile": "Pizzapi_F/index.html.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "750"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"JLlbdeGFGQ2m8VKihog0ENiTusWo/sXHTuzz4abZgzc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 29 Apr 2026 17:54:35 GMT"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ahbk9ep1ky"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-JLlbdeGFGQ2m8VKihog0ENiTusWo/sXHTuzz4abZgzc="
+        },
+        {
+          "Name": "label",
+          "Value": "Pizzapi_F/index.html.gz"
+        }
+      ]
+    },
+    {
+      "Route": "Pizzapi_F/index.html",
+      "AssetFile": "Pizzapi_F/index.html.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001331557923"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "750"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"JLlbdeGFGQ2m8VKihog0ENiTusWo/sXHTuzz4abZgzc=\""
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"HuisuY5LAXEUx8/zO5tdDBy30mp7peX3fX/2fAcdlZg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 29 Apr 2026 17:54:35 GMT"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-HuisuY5LAXEUx8/zO5tdDBy30mp7peX3fX/2fAcdlZg="
+        }
+      ]
+    },
+    {
+      "Route": "Pizzapi_F/index.html",
+      "AssetFile": "Pizzapi_F/index.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1871"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"HuisuY5LAXEUx8/zO5tdDBy30mp7peX3fX/2fAcdlZg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 29 Apr 2026 17:54:35 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-HuisuY5LAXEUx8/zO5tdDBy30mp7peX3fX/2fAcdlZg="
+        }
+      ]
+    },
+    {
+      "Route": "Pizzapi_F/index.html.gz",
+      "AssetFile": "Pizzapi_F/index.html.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "750"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"JLlbdeGFGQ2m8VKihog0ENiTusWo/sXHTuzz4abZgzc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 29 Apr 2026 17:54:35 GMT"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-JLlbdeGFGQ2m8VKihog0ENiTusWo/sXHTuzz4abZgzc="
+        }
+      ]
+    },
+    {
+      "Route": "Pizzapi_F/logo2.png",
+      "AssetFile": "Pizzapi_F/logo2.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "7069132"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"2PD8tF4CUSVeqJMgA+Wi6bphKLRo02IppPunGD3Yg48=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 29 Apr 2026 17:54:35 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-2PD8tF4CUSVeqJMgA+Wi6bphKLRo02IppPunGD3Yg48="
+        }
+      ]
+    },
+    {
+      "Route": "Pizzapi_F/logo2.wqp22shzz2.png",
+      "AssetFile": "Pizzapi_F/logo2.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "7069132"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"2PD8tF4CUSVeqJMgA+Wi6bphKLRo02IppPunGD3Yg48=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 29 Apr 2026 17:54:35 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "wqp22shzz2"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-2PD8tF4CUSVeqJMgA+Wi6bphKLRo02IppPunGD3Yg48="
+        },
+        {
+          "Name": "label",
+          "Value": "Pizzapi_F/logo2.png"
+        }
+      ]
+    },
+    {
+      "Route": "Pizzapi_F/margherita.4s07g9kha9.png",
+      "AssetFile": "Pizzapi_F/margherita.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2140116"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"TKyznOPMwVfIjYFVEcYwXNjcqVj6nej6utYzLkRvs7w=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 29 Apr 2026 17:54:35 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "4s07g9kha9"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-TKyznOPMwVfIjYFVEcYwXNjcqVj6nej6utYzLkRvs7w="
+        },
+        {
+          "Name": "label",
+          "Value": "Pizzapi_F/margherita.png"
+        }
+      ]
+    },
+    {
+      "Route": "Pizzapi_F/margherita.png",
+      "AssetFile": "Pizzapi_F/margherita.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2140116"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"TKyznOPMwVfIjYFVEcYwXNjcqVj6nej6utYzLkRvs7w=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 29 Apr 2026 17:54:35 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-TKyznOPMwVfIjYFVEcYwXNjcqVj6nej6utYzLkRvs7w="
+        }
+      ]
+    },
+    {
+      "Route": "Pizzapi_F/marinara.izt5gidtst.png",
+      "AssetFile": "Pizzapi_F/marinara.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2235572"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"8jBhJYyA8zODzZ3hByxvTnpc7rrStzP/pFp4fgPk38o=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 29 Apr 2026 17:54:35 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "izt5gidtst"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-8jBhJYyA8zODzZ3hByxvTnpc7rrStzP/pFp4fgPk38o="
+        },
+        {
+          "Name": "label",
+          "Value": "Pizzapi_F/marinara.png"
+        }
+      ]
+    },
+    {
+      "Route": "Pizzapi_F/marinara.png",
+      "AssetFile": "Pizzapi_F/marinara.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2235572"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"8jBhJYyA8zODzZ3hByxvTnpc7rrStzP/pFp4fgPk38o=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 29 Apr 2026 17:54:35 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-8jBhJYyA8zODzZ3hByxvTnpc7rrStzP/pFp4fgPk38o="
+        }
+      ]
+    },
+    {
+      "Route": "Pizzapi_F/napoletana.clrx9mynb3.png",
+      "AssetFile": "Pizzapi_F/napoletana.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2234094"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"8Kr3kDvzgcdsohygOLX1XIiJ2pDAkyzG76Pngei9Z4U=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 29 Apr 2026 17:54:35 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "clrx9mynb3"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-8Kr3kDvzgcdsohygOLX1XIiJ2pDAkyzG76Pngei9Z4U="
+        },
+        {
+          "Name": "label",
+          "Value": "Pizzapi_F/napoletana.png"
+        }
+      ]
+    },
+    {
+      "Route": "Pizzapi_F/napoletana.png",
+      "AssetFile": "Pizzapi_F/napoletana.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2234094"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"8Kr3kDvzgcdsohygOLX1XIiJ2pDAkyzG76Pngei9Z4U=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 29 Apr 2026 17:54:35 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-8Kr3kDvzgcdsohygOLX1XIiJ2pDAkyzG76Pngei9Z4U="
+        }
+      ]
+    },
+    {
+      "Route": "Pizzapi_F/ortolana.iw8i6hib2m.png",
+      "AssetFile": "Pizzapi_F/ortolana.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2224351"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"koeBuGX37N0CWIzbTghzpVdq856o2+mXmr2NW6R1guo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 29 Apr 2026 17:54:35 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "iw8i6hib2m"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-koeBuGX37N0CWIzbTghzpVdq856o2+mXmr2NW6R1guo="
+        },
+        {
+          "Name": "label",
+          "Value": "Pizzapi_F/ortolana.png"
+        }
+      ]
+    },
+    {
+      "Route": "Pizzapi_F/ortolana.png",
+      "AssetFile": "Pizzapi_F/ortolana.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2224351"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"koeBuGX37N0CWIzbTghzpVdq856o2+mXmr2NW6R1guo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 29 Apr 2026 17:54:35 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-koeBuGX37N0CWIzbTghzpVdq856o2+mXmr2NW6R1guo="
+        }
+      ]
+    },
+    {
+      "Route": "Pizzapi_F/pistacchio_mortadella.png",
+      "AssetFile": "Pizzapi_F/pistacchio_mortadella.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2150891"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"p2ItsqxWIk+cdO/upbWsIXNzHXTvdKpAiUsf2U0KBs4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 29 Apr 2026 17:54:35 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-p2ItsqxWIk+cdO/upbWsIXNzHXTvdKpAiUsf2U0KBs4="
+        }
+      ]
+    },
+    {
+      "Route": "Pizzapi_F/pistacchio_mortadella.x2fsmvjakc.png",
+      "AssetFile": "Pizzapi_F/pistacchio_mortadella.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2150891"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"p2ItsqxWIk+cdO/upbWsIXNzHXTvdKpAiUsf2U0KBs4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 29 Apr 2026 17:54:35 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "x2fsmvjakc"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-p2ItsqxWIk+cdO/upbWsIXNzHXTvdKpAiUsf2U0KBs4="
+        },
+        {
+          "Name": "label",
+          "Value": "Pizzapi_F/pistacchio_mortadella.png"
+        }
+      ]
+    },
+    {
+      "Route": "Pizzapi_F/prosciutto_funghi.guzu01nqwb.png",
+      "AssetFile": "Pizzapi_F/prosciutto_funghi.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2153017"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"CFt2AA2lSkb0kHktKttjxuQwRJPVvu9ikxns197Wnq0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 29 Apr 2026 17:54:35 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "guzu01nqwb"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-CFt2AA2lSkb0kHktKttjxuQwRJPVvu9ikxns197Wnq0="
+        },
+        {
+          "Name": "label",
+          "Value": "Pizzapi_F/prosciutto_funghi.png"
+        }
+      ]
+    },
+    {
+      "Route": "Pizzapi_F/prosciutto_funghi.png",
+      "AssetFile": "Pizzapi_F/prosciutto_funghi.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2153017"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"CFt2AA2lSkb0kHktKttjxuQwRJPVvu9ikxns197Wnq0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 29 Apr 2026 17:54:35 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-CFt2AA2lSkb0kHktKttjxuQwRJPVvu9ikxns197Wnq0="
+        }
+      ]
+    },
+    {
+      "Route": "Pizzapi_F/quattro_formaggi.jx6g9lwza9.png",
+      "AssetFile": "Pizzapi_F/quattro_formaggi.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2057462"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"F2Q09IfwczUC3gCCVJnnWGo7RVFqgrcv3waMBrKOMiA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 29 Apr 2026 17:54:35 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "jx6g9lwza9"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-F2Q09IfwczUC3gCCVJnnWGo7RVFqgrcv3waMBrKOMiA="
+        },
+        {
+          "Name": "label",
+          "Value": "Pizzapi_F/quattro_formaggi.png"
+        }
+      ]
+    },
+    {
+      "Route": "Pizzapi_F/quattro_formaggi.png",
+      "AssetFile": "Pizzapi_F/quattro_formaggi.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2057462"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"F2Q09IfwczUC3gCCVJnnWGo7RVFqgrcv3waMBrKOMiA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 29 Apr 2026 17:54:35 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-F2Q09IfwczUC3gCCVJnnWGo7RVFqgrcv3waMBrKOMiA="
+        }
+      ]
+    },
+    {
+      "Route": "Pizzapi_F/quattro_stagioni.png",
+      "AssetFile": "Pizzapi_F/quattro_stagioni.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2171345"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ZphO/d4dzXwtpN6DS0BSSNLNGf9TUoK1FQagvDlY7KE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 29 Apr 2026 17:54:35 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-ZphO/d4dzXwtpN6DS0BSSNLNGf9TUoK1FQagvDlY7KE="
+        }
+      ]
+    },
+    {
+      "Route": "Pizzapi_F/quattro_stagioni.yxurryg4r6.png",
+      "AssetFile": "Pizzapi_F/quattro_stagioni.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2171345"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ZphO/d4dzXwtpN6DS0BSSNLNGf9TUoK1FQagvDlY7KE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 29 Apr 2026 17:54:35 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "yxurryg4r6"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-ZphO/d4dzXwtpN6DS0BSSNLNGf9TUoK1FQagvDlY7KE="
+        },
+        {
+          "Name": "label",
+          "Value": "Pizzapi_F/quattro_stagioni.png"
+        }
+      ]
+    },
+    {
+      "Route": "Pizzapi_F/script.js",
+      "AssetFile": "Pizzapi_F/script.js.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000284333239"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3516"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"7ZRnNeDdhJu1wwTMJH9IZgur+Idqh+mwnnMtNzXpYGk=\""
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"VDXppkUrpM8PEE8gv2xXznxv71fv+BP72FvwqioAUtI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 29 Apr 2026 17:54:35 GMT"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-VDXppkUrpM8PEE8gv2xXznxv71fv+BP72FvwqioAUtI="
+        }
+      ]
+    },
+    {
+      "Route": "Pizzapi_F/script.js",
+      "AssetFile": "Pizzapi_F/script.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "20610"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"VDXppkUrpM8PEE8gv2xXznxv71fv+BP72FvwqioAUtI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 29 Apr 2026 17:54:35 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-VDXppkUrpM8PEE8gv2xXznxv71fv+BP72FvwqioAUtI="
+        }
+      ]
+    },
+    {
+      "Route": "Pizzapi_F/script.js.gz",
+      "AssetFile": "Pizzapi_F/script.js.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3516"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"7ZRnNeDdhJu1wwTMJH9IZgur+Idqh+mwnnMtNzXpYGk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 29 Apr 2026 17:54:35 GMT"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-7ZRnNeDdhJu1wwTMJH9IZgur+Idqh+mwnnMtNzXpYGk="
+        }
+      ]
+    },
+    {
+      "Route": "Pizzapi_F/script.w9nyzaudk5.js",
+      "AssetFile": "Pizzapi_F/script.js.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000284333239"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3516"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"7ZRnNeDdhJu1wwTMJH9IZgur+Idqh+mwnnMtNzXpYGk=\""
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"VDXppkUrpM8PEE8gv2xXznxv71fv+BP72FvwqioAUtI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 29 Apr 2026 17:54:35 GMT"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "w9nyzaudk5"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-VDXppkUrpM8PEE8gv2xXznxv71fv+BP72FvwqioAUtI="
+        },
+        {
+          "Name": "label",
+          "Value": "Pizzapi_F/script.js"
+        }
+      ]
+    },
+    {
+      "Route": "Pizzapi_F/script.w9nyzaudk5.js",
+      "AssetFile": "Pizzapi_F/script.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "20610"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"VDXppkUrpM8PEE8gv2xXznxv71fv+BP72FvwqioAUtI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 29 Apr 2026 17:54:35 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "w9nyzaudk5"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-VDXppkUrpM8PEE8gv2xXznxv71fv+BP72FvwqioAUtI="
+        },
+        {
+          "Name": "label",
+          "Value": "Pizzapi_F/script.js"
+        }
+      ]
+    },
+    {
+      "Route": "Pizzapi_F/script.w9nyzaudk5.js.gz",
+      "AssetFile": "Pizzapi_F/script.js.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3516"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"7ZRnNeDdhJu1wwTMJH9IZgur+Idqh+mwnnMtNzXpYGk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 29 Apr 2026 17:54:35 GMT"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "w9nyzaudk5"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-7ZRnNeDdhJu1wwTMJH9IZgur+Idqh+mwnnMtNzXpYGk="
+        },
+        {
+          "Name": "label",
+          "Value": "Pizzapi_F/script.js.gz"
+        }
+      ]
+    },
+    {
+      "Route": "Pizzapi_F/speck_brie.imhzqbjjhw.png",
+      "AssetFile": "Pizzapi_F/speck_brie.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2134115"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"+pkmqSwB0GMZDtfrAnQLhuvnHrFKzJ3pm8byCqqbt+E=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 29 Apr 2026 17:54:35 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "imhzqbjjhw"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-+pkmqSwB0GMZDtfrAnQLhuvnHrFKzJ3pm8byCqqbt+E="
+        },
+        {
+          "Name": "label",
+          "Value": "Pizzapi_F/speck_brie.png"
+        }
+      ]
+    },
+    {
+      "Route": "Pizzapi_F/speck_brie.png",
+      "AssetFile": "Pizzapi_F/speck_brie.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2134115"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"+pkmqSwB0GMZDtfrAnQLhuvnHrFKzJ3pm8byCqqbt+E=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 29 Apr 2026 17:54:35 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-+pkmqSwB0GMZDtfrAnQLhuvnHrFKzJ3pm8byCqqbt+E="
+        }
+      ]
+    },
+    {
+      "Route": "Pizzapi_F/style.69k8yzl9zk.css",
+      "AssetFile": "Pizzapi_F/style.css.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000844594595"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1183"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ASjXITH1YjeyYLEiXpAvUwLidoROVF3mAWMOiJhcn6c=\""
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"dokuxjN/8l+vJq+oO87HWE8ThSqXvDjDzDIiWd/mBdI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 29 Apr 2026 17:54:35 GMT"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "69k8yzl9zk"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-dokuxjN/8l+vJq+oO87HWE8ThSqXvDjDzDIiWd/mBdI="
+        },
+        {
+          "Name": "label",
+          "Value": "Pizzapi_F/style.css"
+        }
+      ]
+    },
+    {
+      "Route": "Pizzapi_F/style.69k8yzl9zk.css",
+      "AssetFile": "Pizzapi_F/style.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3563"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"dokuxjN/8l+vJq+oO87HWE8ThSqXvDjDzDIiWd/mBdI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 29 Apr 2026 17:54:35 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "69k8yzl9zk"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-dokuxjN/8l+vJq+oO87HWE8ThSqXvDjDzDIiWd/mBdI="
+        },
+        {
+          "Name": "label",
+          "Value": "Pizzapi_F/style.css"
+        }
+      ]
+    },
+    {
+      "Route": "Pizzapi_F/style.69k8yzl9zk.css.gz",
+      "AssetFile": "Pizzapi_F/style.css.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1183"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ASjXITH1YjeyYLEiXpAvUwLidoROVF3mAWMOiJhcn6c=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 29 Apr 2026 17:54:35 GMT"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "69k8yzl9zk"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-ASjXITH1YjeyYLEiXpAvUwLidoROVF3mAWMOiJhcn6c="
+        },
+        {
+          "Name": "label",
+          "Value": "Pizzapi_F/style.css.gz"
+        }
+      ]
+    },
+    {
+      "Route": "Pizzapi_F/style.css",
+      "AssetFile": "Pizzapi_F/style.css.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000844594595"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1183"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ASjXITH1YjeyYLEiXpAvUwLidoROVF3mAWMOiJhcn6c=\""
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"dokuxjN/8l+vJq+oO87HWE8ThSqXvDjDzDIiWd/mBdI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 29 Apr 2026 17:54:35 GMT"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-dokuxjN/8l+vJq+oO87HWE8ThSqXvDjDzDIiWd/mBdI="
+        }
+      ]
+    },
+    {
+      "Route": "Pizzapi_F/style.css",
+      "AssetFile": "Pizzapi_F/style.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3563"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"dokuxjN/8l+vJq+oO87HWE8ThSqXvDjDzDIiWd/mBdI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 29 Apr 2026 17:54:35 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-dokuxjN/8l+vJq+oO87HWE8ThSqXvDjDzDIiWd/mBdI="
+        }
+      ]
+    },
+    {
+      "Route": "Pizzapi_F/style.css.gz",
+      "AssetFile": "Pizzapi_F/style.css.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1183"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ASjXITH1YjeyYLEiXpAvUwLidoROVF3mAWMOiJhcn6c=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 29 Apr 2026 17:54:35 GMT"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-ASjXITH1YjeyYLEiXpAvUwLidoROVF3mAWMOiJhcn6c="
+        }
+      ]
+    },
+    {
+      "Route": "Pizzapi_F/tirolese.gul8xtc3ks.png",
+      "AssetFile": "Pizzapi_F/tirolese.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2116766"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"mPU7rLJ58Rgn74aHs7qKRUvlL2Qq4aL87kiNKvD/Nik=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 29 Apr 2026 17:54:35 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "gul8xtc3ks"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-mPU7rLJ58Rgn74aHs7qKRUvlL2Qq4aL87kiNKvD/Nik="
+        },
+        {
+          "Name": "label",
+          "Value": "Pizzapi_F/tirolese.png"
+        }
+      ]
+    },
+    {
+      "Route": "Pizzapi_F/tirolese.png",
+      "AssetFile": "Pizzapi_F/tirolese.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2116766"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"mPU7rLJ58Rgn74aHs7qKRUvlL2Qq4aL87kiNKvD/Nik=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 29 Apr 2026 17:54:35 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-mPU7rLJ58Rgn74aHs7qKRUvlL2Qq4aL87kiNKvD/Nik="
+        }
+      ]
+    },
+    {
+      "Route": "Pizzapi_F/tonno_cipolla.2pjfgmczl2.png",
+      "AssetFile": "Pizzapi_F/tonno_cipolla.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2215464"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"drmjHl/VPvZ7zi9wn6ThjPyOsGzuB5/zIz2BGqS9N18=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 29 Apr 2026 17:54:35 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "2pjfgmczl2"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-drmjHl/VPvZ7zi9wn6ThjPyOsGzuB5/zIz2BGqS9N18="
+        },
+        {
+          "Name": "label",
+          "Value": "Pizzapi_F/tonno_cipolla.png"
+        }
+      ]
+    },
+    {
+      "Route": "Pizzapi_F/tonno_cipolla.png",
+      "AssetFile": "Pizzapi_F/tonno_cipolla.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2215464"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"drmjHl/VPvZ7zi9wn6ThjPyOsGzuB5/zIz2BGqS9N18=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 29 Apr 2026 17:54:35 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-drmjHl/VPvZ7zi9wn6ThjPyOsGzuB5/zIz2BGqS9N18="
+        }
+      ]
+    },
+    {
+      "Route": "Pizzapi_F/vegetariana.7xinaf7pi2.png",
+      "AssetFile": "Pizzapi_F/vegetariana.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2178101"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"darX5HtG3VyoTr/Fqux3rEpEBITvhJQAB6h17HyRZRs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 29 Apr 2026 17:54:35 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "7xinaf7pi2"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-darX5HtG3VyoTr/Fqux3rEpEBITvhJQAB6h17HyRZRs="
+        },
+        {
+          "Name": "label",
+          "Value": "Pizzapi_F/vegetariana.png"
+        }
+      ]
+    },
+    {
+      "Route": "Pizzapi_F/vegetariana.png",
+      "AssetFile": "Pizzapi_F/vegetariana.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2178101"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"darX5HtG3VyoTr/Fqux3rEpEBITvhJQAB6h17HyRZRs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 29 Apr 2026 17:54:35 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-darX5HtG3VyoTr/Fqux3rEpEBITvhJQAB6h17HyRZRs="
+        }
+      ]
+    }
+  ]
+}

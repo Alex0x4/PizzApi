@@ -514,3 +514,7 @@ C:\Users\dario\Downloads\PizzApi\WebApplication1\WebApplication1\obj\Debug\net9.
 C:\Users\dario\Downloads\PizzApi\WebApplication1\WebApplication1\obj\Debug\net9.0\WebApplication1.pdb
 C:\Users\dario\Downloads\PizzApi\WebApplication1\WebApplication1\obj\Debug\net9.0\WebApplication1.genruntimeconfig.cache
 C:\Users\dario\Downloads\PizzApi\WebApplication1\WebApplication1\obj\Debug\net9.0\ref\WebApplication1.dll
+C:\Users\Utente\Desktop\TestBOZZI\PizzApi\WebApplication1\WebApplication1\bin\Debug\net9.0\WebApplication1.staticwebassets.runtime.json
+C:\Users\Utente\Desktop\TestBOZZI\PizzApi\WebApplication1\WebApplication1\obj\Debug\net9.0\compressed\pn2kby4yll-ahbk9ep1ky.gz
+C:\Users\Utente\Desktop\TestBOZZI\PizzApi\WebApplication1\WebApplication1\obj\Debug\net9.0\compressed\5g69zhtu86-w9nyzaudk5.gz
+C:\Users\Utente\Desktop\TestBOZZI\PizzApi\WebApplication1\WebApplication1\obj\Debug\net9.0\compressed\bknsapumz3-69k8yzl9zk.gz
