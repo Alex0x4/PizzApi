@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Creato il: Apr 16, 2026 alle 21:23
+-- Creato il: Apr 30, 2026 alle 21:10
 -- Versione del server: 10.4.28-MariaDB
 -- Versione PHP: 8.2.4
 
@@ -85,9 +85,6 @@ CREATE TABLE `ingredienti_pizza` (
 --
 
 INSERT INTO `ingredienti_pizza` (`id`, `ingredienti`, `pizza`) VALUES
-(1, 1, 1),
-(2, 2, 1),
-(3, 3, 1),
 (4, 1, 2),
 (5, 2, 2),
 (6, 4, 2),
@@ -178,7 +175,6 @@ CREATE TABLE `pizza` (
 --
 
 INSERT INTO `pizza` (`id`, `nome_pizza`, `img_pizza`) VALUES
-(1, 'Pizza Margherita', 'margherita.png'),
 (2, 'Pizza Diavola', 'diavola.png'),
 (3, 'Pizza Quattro Stagioni', 'quattro_stagioni.png'),
 (4, 'Pizza Quattro Formaggi', 'quattro_formaggi.png'),
@@ -231,8 +227,8 @@ ALTER TABLE `pizza`
 -- Limiti per la tabella `ingredienti_pizza`
 --
 ALTER TABLE `ingredienti_pizza`
-  ADD CONSTRAINT `ingredienti_pizza_ibfk_1` FOREIGN KEY (`ingredienti`) REFERENCES `ingredienti` (`id`),
-  ADD CONSTRAINT `ingredienti_pizza_ibfk_2` FOREIGN KEY (`pizza`) REFERENCES `pizza` (`id`);
+  ADD CONSTRAINT `ingredienti_pizza_ibfk2` FOREIGN KEY (`pizza`) REFERENCES `pizza` (`id`) ON DELETE CASCADE,
+  ADD CONSTRAINT `ingredienti_pizza_ibfk_1` FOREIGN KEY (`ingredienti`) REFERENCES `ingredienti` (`id`);
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

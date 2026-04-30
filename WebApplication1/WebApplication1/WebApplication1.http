@@ -24,3 +24,14 @@ GET {{WebApplication1_HostAddress}}/pizza/nome/{{nome}}
 POST {{WebApplication1_HostAddress}}/ingredienti
 
 ###
+
+@pizzaId=0
+@ingredienteId=0
+DELETE {{WebApplication1_HostAddress}}/pizza/{{pizzaId}}/ingrediente/{{ingredienteId}}
+
+###
+
+@id=1
+DELETE {{WebApplication1_HostAddress}}/pizze/{{id}}
+
+###

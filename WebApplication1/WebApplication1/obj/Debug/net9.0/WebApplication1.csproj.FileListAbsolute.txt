@@ -515,9 +515,6 @@ C:\Users\dario\Downloads\PizzApi\WebApplication1\WebApplication1\obj\Debug\net9.
 C:\Users\dario\Downloads\PizzApi\WebApplication1\WebApplication1\obj\Debug\net9.0\WebApplication1.genruntimeconfig.cache
 C:\Users\dario\Downloads\PizzApi\WebApplication1\WebApplication1\obj\Debug\net9.0\ref\WebApplication1.dll
 C:\Users\Utente\Desktop\TestBOZZI\PizzApi\WebApplication1\WebApplication1\bin\Debug\net9.0\WebApplication1.staticwebassets.runtime.json
-C:\Users\Utente\Desktop\TestBOZZI\PizzApi\WebApplication1\WebApplication1\obj\Debug\net9.0\compressed\pn2kby4yll-lu32z4ej1a.gz
-C:\Users\Utente\Desktop\TestBOZZI\PizzApi\WebApplication1\WebApplication1\obj\Debug\net9.0\compressed\5g69zhtu86-tyt8nb0mne.gz
-C:\Users\Utente\Desktop\TestBOZZI\PizzApi\WebApplication1\WebApplication1\obj\Debug\net9.0\compressed\bknsapumz3-h63p1y96dp.gz
 C:\Users\sarai\OneDrive\Documenti\GitHub\PizzApi\WebApplication1\WebApplication1\bin\Debug\net9.0\appsettings.Development.json
 C:\Users\sarai\OneDrive\Documenti\GitHub\PizzApi\WebApplication1\WebApplication1\bin\Debug\net9.0\appsettings.json
 C:\Users\sarai\OneDrive\Documenti\GitHub\PizzApi\WebApplication1\WebApplication1\bin\Debug\net9.0\WebApplication1.staticwebassets.runtime.json
@@ -650,3 +647,6 @@ C:\Users\sarai\OneDrive\Documenti\GitHub\PizzApi\WebApplication1\WebApplication1
 C:\Users\sarai\OneDrive\Documenti\GitHub\PizzApi\WebApplication1\WebApplication1\obj\Debug\net9.0\WebApplication1.pdb
 C:\Users\sarai\OneDrive\Documenti\GitHub\PizzApi\WebApplication1\WebApplication1\obj\Debug\net9.0\WebApplication1.genruntimeconfig.cache
 C:\Users\sarai\OneDrive\Documenti\GitHub\PizzApi\WebApplication1\WebApplication1\obj\Debug\net9.0\ref\WebApplication1.dll
+C:\Users\Utente\Desktop\TestBOZZI\PizzApi\WebApplication1\WebApplication1\obj\Debug\net9.0\compressed\pn2kby4yll-5mq0r30fuo.gz
+C:\Users\Utente\Desktop\TestBOZZI\PizzApi\WebApplication1\WebApplication1\obj\Debug\net9.0\compressed\5g69zhtu86-b0fwn2ipj2.gz
+C:\Users\Utente\Desktop\TestBOZZI\PizzApi\WebApplication1\WebApplication1\obj\Debug\net9.0\compressed\bknsapumz3-lwrao2wcop.gz

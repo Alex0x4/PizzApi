@@ -93,6 +93,7 @@ app.MapDelete("/pizze/{id}", async (int id, AppDbContext db) =>
     var pizza = await db.Pizza.FindAsync(id);
     if (pizza == null)
         return Results.NotFound();
+    db.Ingredienti_Pizza.RemoveRange(pizza.Ingredienti_Pizza);
 
     db.Pizza.Remove(pizza);
     await db.SaveChangesAsync();
